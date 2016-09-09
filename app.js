@@ -1,5 +1,4 @@
-(function(angular) {
-  'use strict';
+ {
 var myApp = angular.module('spicyApp2', []);
 
 myApp.controller('SpicyController', ['$scope', function($scope) {
@@ -11,3 +10,4 @@ myApp.controller('SpicyController', ['$scope', function($scope) {
     };
 }]);
 })(window.angular);
+
